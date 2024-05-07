@@ -1,0 +1,28 @@
+{
+  "name": "express-typescript",
+  "version": "1.0.0",
+  "description": "- **DB_HOST:** localhost\r - **DB_DATABASE:** nombreBaseDeDatos\r - **DB_USERNAME:** nombreDeUsuario\r - **DB_PASSWORD:** passwordDelUsuario\r ### Ejecute npm install para instalar los paquetes necesarios para el proyecto.\r ### Abra una terminal y ejecute tsc -w para el modo observador de Typescript\r ### Abra otra terminal y ejecute node ./dist/app para ejecutar el servidor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jsonwebtoken": "^9.0.6",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.6"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.21",
+    "@types/mysql": "^2.15.26",
+    "@types/node": "^20.12.7",
+    "secure-random": "^1.1.2",
+    "typescript": "^5.4.5"
+  }
+}
